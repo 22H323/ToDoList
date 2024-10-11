@@ -1,0 +1,38 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 4%);
+}
+
+#wrapper h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: #0e0e0e;
+    letter-spacing: 1px;
+}
+
+input {
+    border-radius: 1px;
+    border:2px solid black;
+    margin-top:20px;
+    height:2.5em;
+    width:150px;
+    padding-left:10px;
+}
+
+input :active {
+    border: none;
+}
+
+#wrapper {
+    height:300px;
+    width:300px;
+    margin:150px auto;
+    background-color:#00eeff;
+    border-radius:10px;
+    padding:30px;
+}
